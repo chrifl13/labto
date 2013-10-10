@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="farge.css"/>
+	<title>Programmeringsspråk</title>
+	<style type="text/css">
+	  body {	  
+	    font-family: Georgia, "Times New Roman",
+          Times, serif;
+	color: purple;
+    background-color: #d8da3d }
+	  ol.navbar {
+	   list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    width: 5em }
+	 h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+	 ol.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+  ol.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: red }
+	  
+	 
+  </style>
+	 
+</head>
+
+<body>
+
+<p align="center">Liste over de ulike språkene</p>
+	<ul align="center">
+		<li style="color: red">ActionScript</li>
+		<li style="color:purple">AppleScript</li>
+		<li style="color:yellow">Asp</li>
+		<li style="color:orange">BASIC</li>
+		<li style="color:black>C</li>
+		<li style="color:green">C++</li>
+		<li style="color:blue">Clojure</li>
+		<li style="color:yellow">COBOL</li>
+		<li style="color:orange">ColdFusion</li>
+		<li style="color:yellow">Erlang</li>
+		<li style="color:blue">Fortran</li>
+		<li style="color:yellow">Groovy</li>
+		<li style="color:green">Haskell</li>
+		<li style="color:blue">Java</li>
+		<li style="color:green">JavaScript</li>
+		<li style="color:yellow">Lisp</li>
+		<li style="color:blue">Perl</li>
+		<li style="color:green">PHP</li>
+		<li style="color:yellow">Python</li>
+		<li style="color:green">Ruby</li>
+		<li style="color:orange">Scala</li>
+		<li style="color:red">Scheme</li>
+	</ul>
+
+
+<p>Programmeringsspråk:</p>
+<select onclick="myFunction()" class="text_select" id="field_60" name="field_60">  
+<option value=" ">Velg her</option> 
+<option value="ActionScript">ActionScript</option>  
+<option value="AppleScript">AppleScript</option>  
+<option value="Asp">Asp</option>
+<option value="BASIC">BASIC</option>  
+<option value="C++">C++</option>  
+<option value="Clojure">Clojure</option>  
+<option value="COBOL">COBOL</option> 
+<option value="ColdFusion">ColdFusion</option>  
+<option value="Erlang">Erlang</option>  
+<option value="Fortran">Fortran</option>  
+<option value="Groovy">Groovy</option>   
+<option value="Haskell">Haskell</option>  
+<option value="Java">Java</option>  
+<option value="JavaScript">JavaScript</option>    
+<option value="Lisp">Lisp</option>  
+<option value="Perl">Perl</option>  
+<option value="PHP">PHP</option>  
+<option value="Python">Python</option>  
+<option value="Scala">Scala</option>  
+<option value="Scheme">Scheme</option>
+</select>
+
+<label class="form_field">Du har valgt <span id="aggregator_name"></span> 
+<br></br>
+<p id="swag">Velkommen til en mystisk verden av programmeringsspråk</p>
+
+
+
+
+<script>
+function myFunction()
+{
+var e = document.getElementById("field_60");
+var str=document.getElementById("swag").innerHTML; 
+var n=str.replace("Velkommen til en mystisk verden av programmeringsspråk", "Du har selektert programmeringsspråket");
+ 
+document.getElementById("swag").innerHTML=n;
+var strUser = e.options[e.selectedIndex].value;
+}
+</script>
+
+
+
+
+</script>
+
+
+<ol class="navbar">
+<p> Sorter etter:</p>
+	<li><a href="file:///C:/Users/Christian/Documents/IS%20104/Lab_2/lab_2.html.html">Hjem</a>
+   <li><a href=""
+onclick="return confirm('Siden er under konstruksjon')">Kronologisk</a>
+  <li><a href=""
+onclick="return confirm('Siden er under konstruksjon')">Hierarkisk</a>
+  <li><a href=""
+onclick="return confirm('Siden er under konstruksjon')">Alfabetisk</a>
+</ol>
+	
+	
+<body>  
+
+ 
+
+
+
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="prolangs_lb2.js.js"></script>
+
+
+
+</body>
+
+
+
+
+</html> 
